@@ -19,13 +19,6 @@
     <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/dark_theme.css" type="text/css" id="theme-link"> <!-- Remember that this link made me wanna kms-->
 
-    <script src="https://cdn.tiny.cloud/1/iphnzisfh48is1cgr24rxm9q1zfj2r182b4ofz2wnvt6k1k9/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
-    <script>
-      tinymce.init({
-        selector: '#richtext'
-      });
-    </script>
-
     <title>{% block title %}Untitled{% endblock %}</title>
     <!-- <link id="theme-ico" rel="icon" type="image/x-icon" href="/static/images/redFavicon.ico"> -->
 </head>
@@ -82,8 +75,6 @@
   </div>
 
   <div class="far fa-moon btn-toggle"></div>
-
-  <script src="https://cdn.quilljs.com/1.3.6/quill.js"></script>
 
   <div class="container leftalign" align="left">
     {% block content %}{% endblock %}

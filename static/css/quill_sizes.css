@@ -1,0 +1,44 @@
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="10px"]::before {
+    content: '10px';
+    font-size: 10px !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="11px"]::before {
+    content: '11px';
+    font-size: 11px !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="12px"]::before {
+    content: '12px';
+    font-size: 12px !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="13px"]::before {
+    content: '13px';
+    font-size: 13px !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="14px"]::before {
+    content: '14px';
+    font-size: 14px !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="15px"]::before {
+    content: '15px';
+    font-size: 15px !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="16px"]::before {
+    content: '16px';
+    font-size: 16px !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="17px"]::before {
+    content: '17px';
+    font-size: 17px !important;
+}
+
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value="18px"]::before {
+    content: '18px';
+    font-size: 18px !important;
+}
