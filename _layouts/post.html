@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1 style="color: rgb(255, 136, 0); font-family: Verdana, Geneva, Tahoma, sans-serif;">{{ page.title }}</h1>
+<div style="display:inline-block;">
+    <p style="color: rgb(255, 222, 198); display: inline; margin-right: 10px;">Author: {{ page.author }}</p>
+    <p style="color: rgb(255, 222, 198); display: inline; margin-right: 10px;">Date: {{ page.date | date: "%-d %B %Y" }}</p>
+</div>
+<br></br>
+<div class="markdown">
+    {{ content }}
+</div>

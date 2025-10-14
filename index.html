@@ -1,161 +1,62 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+---
+title: Home
+layout: default
+---
 
-    <link
-        rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-        crossorigin="anonymous"
-    />
-    <link
-        rel="stylesheet"
-        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-        crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
-    <link href="https://cdn.quilljs.com/1.3.6/quill.snow.css" rel="stylesheet">
-    <link rel="stylesheet" href="/static/css/dark_theme.css" type="text/css" id="theme-link"> <!-- Remember that this link made me wanna kms-->
+<p class="site-title" style="margin-bottom: 6%; margin-top: 15px; font-family: monospace;">K Game Development Club</p>
 
-    <title>{% block title %}Untitled{% endblock %}</title>
-    <!-- <link id="theme-ico" rel="icon" type="image/x-icon" href="/static/images/redFavicon.ico"> -->
-</head>
+<p class="centered subtitle">Purpose</p>
 
-<body>
-  <nav class="navbar navbar-expand-lg mainnav">
-    <button 
-      class="navbar-toggler" 
-      type="button" 
-      data-toggle="collapse" 
-      data-target="#navbartab"
-      >
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbartab">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link titlenav" id="home" href="/"><b>KGDC</b></a>
-        <a class="nav-item nav-link mainnav" id="series" href="/projects">Projects</a>
-        <!-- <a class="nav-item nav-link mainnav" id="drafts" href="/drafts">Drafts</a> -->
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle mainnav" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Community
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" id="discord" href="https://www.discord.gg/4npEd7ydhG" target="_blank">Discord Server</a>
-            <a class="dropdown-item" id="contests" href="/events">Contests & Events</a>
-            <a class="dropdown-item" id="qna" href="/qna">QnAs</a>
-          </div>
-        </li> -->
-        <a class="nav-item nav-link mainnav" id="events" href="/events">Events</a>
-        <a class="nav-item nav-link mainnav" id="events" href="/about">About</a>
-        <!-- <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle mainnav" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            More
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" id="about" href="/about">About NovelSaint</a>
-            <a class="dropdown-item" id="guidelines" href="/guidelines">Guidelines</a>
-            <a class="dropdown-item" id="help" href="/help">Help</a>
-          </div>
-        </li> -->
-      </div>
-    </div>
-    <!-- <form class="form-inline">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search ..." aria-label="Search">
-      <button class="btn btn-outline-white my-2 my-sm-0" type="submit">Search</button>
-    </form> -->
-  </nav>
+<p>
+  A club for game developers from any grade or skill-level. Work together with other members to develop or plan out games, whether that game is the club's or your own personal project. We hope to help develop your skills in whatever field you want to be in (programming, art, 3D modeling, game design, etc.). 
+ <br></br>
+  We will mainly work with Godot and Roblox Studio* to create video games, big and small, along with modular systems to use as building blocks for future games. In terms of programming/scripting, we will mainly work using Luau and GDScript. However, we are also open to other programming languages and game engines.
+</p>
+<p style="font-size: 12px;">
+  *Roblox as a platform has many issues with moderation and child safety. 
+  This club uses Roblox Studio as an educational resource to learn to create a game and does not condone any actions of 
+  the company itself. It is important to be aware of the ethical and moral issues surrounding both Roblox and the game industry 
+  as a whole. For those who aren't comfortable with using Roblox-related programs, 
+  I recommend using/learning Godot.
+</p>
 
-  <br>
-  <div>
-    <p class="site-title"><a href="/" rel="home" class="black">KGDC</a></p>
-    <p class="site-slogan">A nice collection of web-novels and drafts.</p>
+<div style="margin: 80px;"></div>
+
+<!-- <p class="centered subtitle">What We've Done</p>
+<p></p>
+
+<div>
+
+</div> -->
+
+<p class="centered subtitle">Resources</p>
+<div>
+  <p>
+    Whether you're just starting out or have been in the field for a bit now, we are actively providing resources
+    to game developers to help with developing their games. Ranging from progroamming help to launching a game, we want to
+    support projects that every one of our members want to make.
+  </p>
+  <p class="centered"><a href="/resources.html">> Link to an index of resources.</a></p>
+</div>
+
+<div style="margin: 80px;"></div>
+
+<div style="margin-left: auto; margin-right: auto; width: 90%;">
+  <div style="display: inline-block; width: 50%; vertical-align: top; margin-top: 40px; margin-right: 50px;">
+    <img src="/assets/images/k_logo.png" style="width: 100%;">
   </div>
-
-  <div class="far fa-moon btn-toggle"></div>
-
-  <div class="container leftalign" align="left">
-    {% block content %}{% endblock %}
+  <div style="display: inline-block; margin-left: auto;">
+    <p class="subtitle">Join The Club Today</p>
+    <p >
+      We have 21 members and are happy to invite many more. 
+    </p>
+    <a href="https://kzoo.presence.io/admin/organization/k-game-development-club" class="btn" style="background-color: rgb(255, 174, 23);">Join In Presence</a>
   </div>
+  
+</div>
 
-  <script
-    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"
-  ></script>
+<div style="margin: 80px;"></div>
 
-  <script>
-    // Select the button
-    const btn = document.querySelector(".btn-toggle");
-    // Select the stylesheet <link>
-    const theme = document.querySelector("#theme-link");
-    const themeIco = document.querySelector("#theme-ico");
+<div>
 
-    const currentTheme = localStorage.getItem("theme");
-    window.onload = function(){
-      if (currentTheme == "light") {
-      // ...then use the .dark-theme class
-      btn.classList.toggle("fa-sun");
-      theme.href = "/static/css/light_theme.css";
-      themeIco.href = "/static/images/blueFavicon.ico";
-      }
-    }
-
-    // Listen for a click on the button
-    btn.addEventListener("click", function() {
-      // If the current URL contains "ligh-theme.css"
-      let vTheme = null;
-
-      if (theme.getAttribute("href") == "/static/css/light_theme.css") {
-        // ... then switch it to "dark-theme.css"
-        theme.href = "/static/css/dark_theme.css";
-        themeIco.href = "/static/images/redFavicon.ico";
-        btn.classList.toggle("fa-sun");
-        vTheme = "dark";
-      // Otherwise...
-      } else {
-        // ... switch it to "light-theme.css"
-        theme.href = "/static/css/light_theme.css";
-        themeIco.href = "/static/images/blueFavicon.ico";
-        btn.classList.toggle("fa-sun");
-        vTheme = "light"
-      }
-
-      localStorage.setItem("theme", vTheme);
-    });
-
-    const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
-
-    if (prefersDarkScheme.matches) {
-      theme.href = "/static/css/dark_theme.css";
-        btn.classList.toggle("fa-sun");
-    } else {
-      theme.href = "/static/css/light_theme.css";
-        btn.classList.toggle("fa-sun");
-    }
-  </script>
-
-  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-  <!-- {% block javascript %}
-  <script type="text/javascript">
-    function deleteNote(noteId) {
-      fetch("/delete-note", {
-        method: "POST",
-        body: JSON.stringify({ noteId: noteId }),
-      }).then((_res) => {
-        window.location.href = "/";
-      });
-    }
-  </script>
-  {% endblock %} -->
-</body>
-</html>
+</div>
