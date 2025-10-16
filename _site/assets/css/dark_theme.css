@@ -12,7 +12,7 @@ body{
     border-color: lightgray;
 }
 
-p.site-title {
+.site-title {
     color: rgb(255, 177, 60);
     text-decoration-color: rgb(255, 166, 0);;
 }
@@ -33,9 +33,10 @@ a:visited{
     color: #ffbb6e;
 }
 
-.btn > a:visited{
-    color: black;
+.btn {
+    color: black !important;
 }
+
 
 a.mainnav{
     color: rgb(210, 210, 210);

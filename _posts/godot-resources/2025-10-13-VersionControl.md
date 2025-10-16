@@ -35,6 +35,7 @@ You have now linked a Godot project to GitHub! There are some more things to do,
 Now that you have linked the repository to the Godot project files, you are able to push any changes you make into the repository.
 
 ### Commiting
+Whenever you make any changes in your Godot project, it will be reflected in GitHub Desktop (when selected on the project repository), showing you a list of every change you have made. In order to *commit* those changes to the repository, you can do so below the list, where it will give you two boxes: Commit Name & Description. Only a name is required, but giving it a description also helps other teammates see what the commit was for.
 
 <br>
 
@@ -46,6 +47,8 @@ The master branch is the main branch of the repository, and should contain the *
 Instead of working on the master branch, you can create your own branch where you can make non-finalized changes. To do this, click on Current Branch, and then on New Branch.
 
 You will be given a place to put the name of your new branch (for readibility, a name such as "JohnEnvironment" is good), and then options to base your branch off of. If this is a new project, then you can just leave it on the master branch option. However, if you are joining a project that's been worked on already, you should ask your teammates on which branch would work best to be up-to-date on changes. Although, whether you choose master or not, you can always merge/pull changes into your branch when needed.
+
+Github Desktop may also give you a prompt in the case where you already made changes beforehand, asking if you want to transfer your changes to the new branch. You'll want to do that, so press on the option that transfers the changes.
 
 <br>
 
@@ -59,3 +62,4 @@ Merging allows you to specify where you want to receive changes from. With Merge
 <br>
 
 ### Pushing
+Once you want to all your current commits to be reflect in the online repository (Aka. GitHub), next to Current Branch, there is an option to Push. (It may also say Fetch Origin. In this case, just press it as it gives you an updated version of the GitHub repository, and won't affect your commits.)

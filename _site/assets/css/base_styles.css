@@ -4,9 +4,15 @@
     font-family:Arial, Helvetica, sans-serif;
 }
 
-body{
-    /* background-image: url(../images/subarusins.jpg); */
+/* body{
+    background-image: url(../images/subarusins.jpg);
     background-attachment: fixed;
+    background-size:cover;
+    background-repeat:no-repeat;
+} */
+
+.background {
+    /* background-attachment: fixed; */
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -15,7 +21,7 @@ h3 {
     font-size: 1.4rem;
 }
 
-p.subtitle {
+.subtitle {
     font-size: x-large;
     color: #ff9639;
 }
@@ -88,7 +94,7 @@ hr{
     border-width: 1.5px;
 }
 
-p.site-title {
+.site-title {
     font-size: 270%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
